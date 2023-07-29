@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headerMain 
+{
+   font-size:3vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style:oblique ;
+   color:yellow ; 
+}
+
+.navItems 
+{
+   display:flex ;
+   gap:7vw ;
+   font-size:2vw ;
+   list-style-type:none ;
+   margin-left:-2vw ;
+   margin-top:-1vw ;
+}
+
+.homepageHeader 
+{
+   margin-top:-3vw ;
+   background-color:green ;
+   color:white ;
+   height:10vw ;
+}
+
+.itemList:hover  
+{
+   transform:scale(1.5) ;
+   transform:scale(1.5) ;
+}
+
+.linking 
+{
+   color:white ;
+   text-decoration:none;
+}
+
+.mainHeading 
+{
+   font-size:3vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   text-align:left ;
+}
+
+.mainList 
+{
+   font-size:2vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   list-style-type:symbols(diamond) ;
+   text-align:left ;
+   margin-left:-1vw ;
+}
+
+.homepageMain 
+{
+   background-image: -webkit-image-set("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTV-v_rCGFNUsDfBa6K8w9bjOAa-hVQuCSpEpYET6h6A&usqp=CAU&ec=48665701");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top:-3vw ;
+   height:40vw ;
+   color:black ;
+}
+
+.farmerMain 
+{
+   background-image: -webkit-image-set("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzE6czDvJHrq9lwj2PyDBlwS1dbweliy0YeMtiM6HeVQ&usqp=CAU&ec=48665701");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top:-3vw ;
+   height:40vw ;
+   color:black ;
+}
+
+.Register 
+{
+   margin-left:25vw ;
+   margin-right:25vw ;
+   border:solid ;
+   border-color: lightgrey;
+   margin-top:2vw ;
+   height:30vw ;
+   background-color: blueviolet;
+}
+
+.Login 
+{
+   margin-left:25vw ;
+   margin-right:25vw ;
+   border:solid ;
+   border-color: lightgrey;
+   margin-top:2vw ;
+   height:30vw ;
+   background-color: blueviolet;
+}
+
+.NewProduct 
+{
+   margin-left:25vw ;
+   margin-right:25vw ;
+   border:solid ;
+   border-color: lightgrey;
+   margin-top:2vw ;
+   height:30vw ;
+   background-color: green;
+}
+
+.FarmerComplaint 
+{
+   margin-left:25vw ;
+   margin-right:25vw ;
+   border:solid ;
+   border-color: lightgrey;
+   margin-top:2vw ;
+   height:40vw ;
+   background-color: green;
+}
+
+
+.pageHeading 
+{
+   background-color: darkblue;
+   color:white ;
+   font-size:3vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.productHeading 
+{
+   background-color: purple;
+   color:white ;
+   font-size:3vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.registerInput 
+{
+   font-size:1.5vw ;
+   width:20vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+}
+
+.registerInputImage 
+{
+   font-size:1.5vw ;
+   width:20vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+}
+
+.registerInputLabel 
+{
+   font-size:1.5vw ;
+   width:20vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+   margin-left:14.5vw ;
+}
+
+.pageButton 
+{
+   font-size:2vw ;
+   width:13vw ;
+   background-color:red ;
+   color:white ;
+   border-radius:0.65rem ;
+   border-color:red ;
+   margin-bottom:7vw ;
+}
+
+.pageButton:hover 
+{
+  transform:scale(1.5) ;
+  transform:scale(1.5) ;
+}
+
+.pageLinking 
+{
+   text-decoration:none ;
+   font-size: 2vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:white ;
+}
+
+.pageEnding 
+{
+   margin-top:-6vw ;
+}
+
+.midPara {
+   font-size:2vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:white ;
+}
+
